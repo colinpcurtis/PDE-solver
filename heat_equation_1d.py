@@ -65,8 +65,8 @@ def plot_1d(u):
     plt.xlabel("Position on Rod")
     plt.ylabel(r"Time $\Delta t$")
     plt.colorbar(label="temperature")
-    # plt.show()
-    plt.savefig("images/heat_equation_fig2.png")
+    plt.show()
+    # plt.savefig("images/heat_equation_fig2.png")
 
 
 if __name__ == "__main__":
